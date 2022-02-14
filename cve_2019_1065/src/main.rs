@@ -100,7 +100,6 @@ lazy_static!(
 );
 
 //knobs and sliders
-//(in my head it's a weird granular synth)
 static NUMBITMAPS: u32 = 0x1000;
 static FENGSHUI0NUMPROPS: u32 = 0x2;
 static FENGSHUI0NUMRES: u32 = 0x800;
@@ -110,7 +109,6 @@ static FENGSHUI2NUMRES: u32 = 0x200;
 static FENGSHUI3START: u32 = 0x10;
 static FENGSHUI3END: u32 = 0x700;
 static FENGSHUI4START: u32 = 0x100;
-//static FENGSHUI4END: u32 = 0x300;
 static OOBNUMATTEMPTS: usize = 0xa;
 static TOKEN_PRIVILEGES_OFFSET: usize = 0x40;
 
